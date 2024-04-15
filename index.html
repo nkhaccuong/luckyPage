@@ -25,7 +25,7 @@
     <meta name="theme-color" content="#ffffff">
     <!--reset css-->
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <!--embeded font-->
+    <!--embedded font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -36,7 +36,43 @@
 </head>
 
 <body>
-    <h1>Hello</h1>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <img src="./assets/icon/Logo.svg" alt="Lucky" class="icon">
+                <nav class="navbar">
+                    <ul class="header__list">
+                        <li class="header__item"><a href="#!" class="header__link">Home</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">About</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">Services & Rates</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">Reviews</a></li>
+                        <li class="header__item"><a href="#!" class="header__link">Contacts us</a></li>
+                    </ul>
+                </nav>
+                <div class="header__action">
+                    <a href="#!" class="header__action-signin">Sign in</a>
+                    <a href="#!" class=" btn header__action-signup">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__media">
+                    <div class="hero__img-wrap">
+                        <img src="./assets/img/hero-img1.png" alt="" class="hero__img">
+                        <img src="./assets/img/hero-deco1.png" alt="" class="hero__decor hero__decor-left">
+                        <img src="./assets/img/hero-deco2.png" alt="" class="hero__decor hero__decor-right">
+                    </div>
+                    <div class="hero__img-wrap hero__img-wrap-small">
+                        <img src="./assets/img/hero-img2.png" alt="" class="hero__img hero__img-small">
+                    </div>
+                </div>
+                <section class="hero__content"></section>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
